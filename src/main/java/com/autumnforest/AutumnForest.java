@@ -1,7 +1,7 @@
 package com.autumnforest;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -22,6 +22,8 @@ public class AutumnForest implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		//test
+		System.out.println("[AutumnForest] Target biome:"+Biomes.DAPPLED_FOREST);
 	}
 
 	public static Identifier id(String path) {
