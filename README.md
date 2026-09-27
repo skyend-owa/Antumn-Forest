@@ -1,9 +1,10 @@
-# Autumn Forest
+# 秋日森林
 
-## Setup
+这是一个专注于改造 Minecraft “斑驳森林”（Dappled Forest）地形的模组。
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# 将原版“斑驳森林”重塑为北美秋季露营地的景观：
+- 起伏的山脊
+- 开阔的金黄色白杨林
+- 溪流、湿润的谷底与高山湖泊
+- 优化废弃营地的布局与氛围
