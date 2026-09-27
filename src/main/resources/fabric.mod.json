@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "autumn-forest",
+	"version": "${version}",
+	"name": "Autumn Forest",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/autumn-forest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.autumnforest.AutumnForest"
+		],
+		"client": [
+			"com.autumnforest.client.AutumnForestClient"
+		],
+		"fabric-datagen": [
+			"com.autumnforest.client.AutumnForestDataGenerator"
+		]
+	},
+	"mixins": [
+		"autumn-forest.mixins.json",
+		{
+			"config": "autumn-forest.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
